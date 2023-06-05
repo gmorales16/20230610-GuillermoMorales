@@ -1,0 +1,16 @@
+    1  git init
+    2  git add .
+    3  git commit -m "commit 01 de GuillermoMorales"
+    4  git push origin main
+    5  git branch -M main
+    6  git remote add origin https://github.com/gmorales16/20230610-GuillermoMorales.git
+    7  git push -u origin main
+    8  git branch feature
+    9  git checkout feature
+   10  git add .
+   11  git commit -m "commit 02 de Guillermo Morales"
+   12  git push origin feature
+   13  git checkout main
+   14  git add .
+   15  git commit -m "commit 03 de GuillermoMorales"
+   16  history 50 > comandos.txt
